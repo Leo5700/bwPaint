@@ -10,6 +10,6 @@ void draw() {
   float a = min(width, height)/20;
   if (mousePressed)
     rect(mouseX, mouseY, a, a);
-  if (mouseX<2*a && mouseY<2*a)
+  if (mouseX<2*a && mouseY<2*a) // clear screen
     background(0);
 }

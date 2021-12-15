@@ -13,3 +13,4 @@ void draw() {
   if (mouseX<2*a && mouseY<2*a) // clear screen
     background(0);
 }
+
